@@ -40,7 +40,7 @@ class Articles extends Component {
     var enddate = document.getElementById("endDate").value;
 
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
-    url += "?api-key=apikeygoeshere";
+    url += "?api-key=a37f87b8092245b5b1e6d60c602534f0";
 
     if (title !== ""){
       url += '&q=' + title;

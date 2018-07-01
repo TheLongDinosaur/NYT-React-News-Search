@@ -12,8 +12,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "heroku link goes here" || "mongodb://localhost/3000");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytreact");
 
 app.listen(PORT, function() {
-  console.log("Now listening on port ${PORT}!");
+  console.log("Now listening on port 3000");
 });
