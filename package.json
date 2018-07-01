@@ -1,0 +1,34 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.1.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "React Search of New York Times Articles",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelongdinosaur/NYT-React-News-Search.git"
+  },
+  "author": "Carrie K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelongdinosaur/NYT-React-News-Search/issues"
+  },
+  "homepage": "https://github.com/thelongdinosaur/NYT-React-News-Search#readme"
+}
